@@ -40,10 +40,10 @@ This makes sense when you look at the structure of the algorithm. When you only 
 
 ### Functional vs. Multithreaded vs. Object Oriented
 When comparing all the algorithms by their internal logic, the results are unanimous: object oriented is the fastest, functional takes the second place and multithreaded is the lowest by a big margin.
-This can be explained. The object oriented functions have direct acceess to the array, which greatly reduces their time to get a number to compare it, while the functional functions have to work with the stream. The multithreaded functions are by far the slowest because their massive overhead and management impairs their performance.
+This can be explained. The object oriented functions have direct acceess to the array, which greatly reduces their time to get a number to compare it, while the functional functions have to work with the stream and uses more method calls for filtering. The multithreaded functions are by far the slowest because their massive overhead and management impairs their performance.
 
 ### Linear Search vs. Quick Sort + Binary Search
-Now, when we look at our main objective of this project, we can see that the QuickSort + BinarySearch method is performing way better than all the other options. Especially binary search is incredibly fast, outperforming any other search algorithm by at least 2 times. This result, of course, is only representative to the specific parameters applied here. Changing the number of searched numbers and the size of the array will change the results drastically and may give a different algorithm the best performance.  
+Now, when we look at our main objective of this project, we can see that the QuickSort + BinarySearch method is performing way better than all the other options. Especially binary search is incredibly fast, outperforming any other search algorithm by at least 2 times. This result, of course, is only representative to the specific parameters applied here. 
 
 ----
 ©Multiflex KG
